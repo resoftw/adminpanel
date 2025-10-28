@@ -123,5 +123,54 @@ export const menuGroups: MenuGroup[] = [
         href: '/admin/settings/integrations'
       },
     ]
+  },
+  {
+    id: 'forms',
+    label: 'Forms',
+    items: [
+      {
+        id: 'form-demo',
+        label: 'Basic Form',
+        icon: '📝',
+        href: '/admin/form-demo'
+      },
+      {
+        id: 'form-advanced',
+        label: 'Advanced Form',
+        icon: '⚙️',
+        href: '/admin/form-advanced'
+      },
+      {
+        id: 'form-upload',
+        label: 'File Upload',
+        icon: '📤',
+        href: '/admin/form-upload'
+      },
+      {
+        id: 'form-conditional',
+        label: 'Conditional Fields',
+        icon: '🔀',
+        href: '/admin/form-conditional'
+      },
+      {
+        id: 'form-validation',
+        label: 'Validation',
+        icon: '✅',
+        href: '/admin/form-validation'
+      },
+      {
+        id: 'form-custom',
+        label: 'Custom Fields',
+        icon: '🎨',
+        href: '/admin/form-custom'
+      },
+      {
+        id: 'form-builder',
+        label: 'Form Builder',
+        icon: '🏗️',
+        href: '/admin/form-builder',
+        badge: { text: 'New', variant: 'success' }
+      }
+    ]
   }
 ];
